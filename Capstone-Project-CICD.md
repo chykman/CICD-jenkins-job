@@ -44,6 +44,27 @@
 
     ![image](https://github.com/user-attachments/assets/6cc55b61-eaba-4b82-a632-ef5680e54232)
 
+    ![image](https://github.com/user-attachments/assets/bf5e8a64-97cc-458a-8438-9083352b9959)
+
+    - Save configuration 
+      ![image](https://github.com/user-attachments/assets/e13a3e53-2014-4efd-bec0-ef8d0f9f5f97)
+
+      - Go to github and configure webhooks
+     
+        Go to Settings
+        ![image](https://github.com/user-attachments/assets/4a5e49be-76ae-4a2d-875d-385c0393ac51)
+       Click add webhook
+        ![image](https://github.com/user-attachments/assets/21948b9b-e43a-482c-a662-3ad625b822cd)
+
+        Enter payload URL with the Jenkins server ip
+        ![image](https://github.com/user-attachments/assets/aea29de5-715b-4ede-8099-065468afc2df)
+        Save settings
+        ![image](https://github.com/user-attachments/assets/706f55c4-0cb2-4e58-a254-4b5ae2a20665)
+
+
+
+
+
 
 
     
