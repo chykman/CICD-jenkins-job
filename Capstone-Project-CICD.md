@@ -61,6 +61,59 @@
         Save settings
         ![image](https://github.com/user-attachments/assets/706f55c4-0cb2-4e58-a254-4b5ae2a20665)
 
+        ## Docker Image creation and Registry push
+   
+    - Create your Dockerfile and html folder
+      ![image](https://github.com/user-attachments/assets/37d21545-2265-44b2-9a7b-5366c60a18b4)
+   
+      - Git push to your Jenkins repository
+        ![image](https://github.com/user-attachments/assets/9fcf8978-6f2e-4475-95bc-e75496bc57e6)
+
+
+        - Go to Your Jenkins server
+          ![image](https://github.com/user-attachments/assets/4c87d6d0-3d07-4f34-be88-bdea667cf778)
+
+          - Clone your Jenkins repository on the Jenkins server
+            ![image](https://github.com/user-attachments/assets/9641362d-b4ad-48a2-b7d4-c5935d77134a)
+            
+        - Add the Jenkins user to the docker group to allow non-root access for security
+          sudo usermod -aG docker jenkins
+
+            - Open Jenkins application over your Browser
+              ![image](https://github.com/user-attachments/assets/cfe61df4-c479-439e-b8b9-a3eef9c2f1c4)
+
+              - Make changes to your code and push
+                ![image](https://github.com/user-attachments/assets/a753d3fc-6f65-4977-adf9-21d674bf32db)
+            - ![image](https://github.com/user-attachments/assets/9a2649ca-4d30-4dc3-b8cc-c6b522a4c990)
+
+
+                - Goto your Jenkins application, notice that the job build has triggered it is building
+                  ![image](https://github.com/user-attachments/assets/ac37de53-325b-41a4-ab13-7a42993334f9)
+
+                - Build was sucessful
+                  ![image](https://github.com/user-attachments/assets/36ab3a00-f739-4138-aeca-43b4a7d35ab6)
+
+                  ![image](https://github.com/user-attachments/assets/1f5fddc3-f989-4b3c-b9e4-2ca7223b2928)
+           
+                  - The docker container for your image is running
+                    ![image](https://github.com/user-attachments/assets/8c69771b-799a-457b-977c-4180bb9d93ea)
+           
+                    - Lets access the site on the available port
+                      ![image](https://github.com/user-attachments/assets/c33ea58a-25f1-47a8-9ba5-246544b8d69b)
+
+
+                
+                - Check your docker hub and notice a docker image has been pushed 
+                  ![image](https://github.com/user-attachments/assets/1edda522-dd78-469a-bc06-bc559cd6e90e)
+
+
+
+
+
+
+
+
+
 
 
 
